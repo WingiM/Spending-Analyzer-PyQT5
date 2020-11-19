@@ -40,7 +40,7 @@ class LoadCard(QMainWindow):  # Класс, запускающий окно с �
     def __init__(self):
         super(LoadCard, self).__init__()
         uic.loadUi('uis/card_load.ui', self)
-        self.connect = sqlite3.connect('bank_cards_db.sqlite')
+        self.connect = sqlite3.connect('data/bank_cards_db.sqlite')
         self.card_n = 0
         self.pushButton.clicked.connect(self.find)
         self.loaded = False
@@ -93,7 +93,7 @@ class AddCard(QMainWindow):  # Класс, запускающий окно с д
         super(AddCard, self).__init__()
         uic.loadUi('uis/card_add.ui', self)
         self.pushButton.clicked.connect(self.add_card)
-        self.connect = sqlite3.connect('bank_cards_db.sqlite')
+        self.connect = sqlite3.connect('data/bank_cards_db.sqlite')
 
     def add_card(self):  # Добавляет новую карту в базу данных
         try:
@@ -234,11 +234,11 @@ class SpendCredit(QMainWindow):  # Класс, запускающий окно, 
     def __init__(self):
         super(SpendCredit, self).__init__()
         uic.loadUi('uis/spendings.ui', self)
-        self.connect = sqlite3.connect('bank_cards_db.sqlite')
+        self.connect = sqlite3.connect('data/bank_cards_db.sqlite')
         self.pushButton.clicked.connect(self.add_to_card)
-        self.spends = [i.rstrip('\n') for i in open('spendings.txt', encoding='utf8').readlines()]
+        self.spends = [i.rstrip('\n') for i in open('data/spendings.txt', encoding='utf8').readlines()]
         self.comboBox.addItems(self.spends)
-        self.credits = [i.rstrip('\n') for i in open('credits.txt', encoding='utf8').readlines()]
+        self.credits = [i.rstrip('\n') for i in open('data/credits.txt', encoding='utf8').readlines()]
         self.added = False
         for i in self.radios.buttons():
             i.toggled.connect(self.reload)
@@ -302,9 +302,9 @@ class SpendingReport(QMainWindow):  # Класс с основным окном
         self.main_label.setText('\n''\n' + self.main_label.text())
         self.main_label.setStyleSheet("""text-decoration: overline, underline; font-size:64px;""")
         self.active_card_id = 0
-        self.connect = sqlite3.connect('bank_cards_db.sqlite')
+        self.connect = sqlite3.connect('data/bank_cards_db.sqlite')
         self.about_window_action, self.add_card_action, = About(), AddCard()
-        self.about_window_action.to_img.setPixmap(QPixmap('pyqt.png'))
+        self.about_window_action.to_img.setPixmap(QPixmap('imgs/pyqt.png'))
         self.load_card_action, self.add_spending_action = LoadCard(), SpendCredit()
         self.about_window_action.setStyleSheet("""QPushButton { 
                                                 border: 1px solid rgb(128, 128, 128);
@@ -328,9 +328,9 @@ class SpendingReport(QMainWindow):  # Класс с основным окном
         self.load_card_button.clicked.connect(self.load_card)
         self.add_card_button.clicked.connect(self.add_card)
         combo_items_spent = ['Все'] + [i.rstrip('\n')
-                                       for i in open('spendings.txt', encoding='utf8').readlines()]
+                                       for i in open('data/spendings.txt', encoding='utf8').readlines()]
         combo_items_credit = ['Все'] + [i.rstrip('\n')
-                                        for i in open('credits.txt', encoding='utf8').readlines()]
+                                        for i in open('data/credits.txt', encoding='utf8').readlines()]
         self.comboBox_spent.addItems(combo_items_spent)
         self.comboBox_credit.addItems(combo_items_credit)
         self.add_new_spending_button.clicked.connect(self.spending)
