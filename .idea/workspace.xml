@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="008651c0-9585-4c88-8160-44ed2198bbae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/bank_cards_db.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/credits.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/spendings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/pyqt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project presents/PyQT.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project presents/Анализатор расходов.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQT.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank_cards_db.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/credits.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyqt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spendings.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Анализатор расходов.docx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PKG-00.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/Tree-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/Tree-01.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/main.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +218,7 @@
       <workItem from="1604513513103" duration="1134000" />
       <workItem from="1604517911563" duration="13000" />
       <workItem from="1604749304727" duration="192000" />
-      <workItem from="1605798597039" duration="364000" />
+      <workItem from="1605798597039" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="Ready-to-use project on Python">
       <created>1605798655790</created>
@@ -226,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605798655790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Convenient directories">
+      <created>1605799046226</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605799046226</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +243,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ready-to-use project on Python" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready-to-use project on Python" />
+    <MESSAGE value="Convenient directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Convenient directories" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603454386319">
@@ -250,38 +259,42 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1603732687122" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1605798654303">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1605799045461">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1605798654303" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1605799045461" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605798627894">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605798627894" />
-    <state width="1492" height="118" key="GridCell.Tab.0.bottom" timestamp="1604749498393">
+    <state width="1492" height="118" key="GridCell.Tab.0.bottom" timestamp="1605799003248">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="118" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1604749498393" />
-    <state width="1492" height="118" key="GridCell.Tab.0.center" timestamp="1604749498392">
+    <state width="1492" height="118" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605799003248" />
+    <state width="1492" height="118" key="GridCell.Tab.0.center" timestamp="1605799003248">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="118" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1604749498392" />
-    <state width="1492" height="118" key="GridCell.Tab.0.left" timestamp="1604749498392">
+    <state width="1492" height="118" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605799003248" />
+    <state width="1492" height="118" key="GridCell.Tab.0.left" timestamp="1605799003248">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="118" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1604749498392" />
-    <state width="1492" height="118" key="GridCell.Tab.0.right" timestamp="1604749498392">
+    <state width="1492" height="118" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605799003248" />
+    <state width="1492" height="118" key="GridCell.Tab.0.right" timestamp="1605799003248">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="118" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1604749498392" />
+    <state width="1492" height="118" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605799003248" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1604116431047">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1604116431047" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605798735207">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605799052349">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605798735207" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605799052349" />
+    <state x="585" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605799050335">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="585" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1605799050335" />
     <state x="570" y="340" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605798732649">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
